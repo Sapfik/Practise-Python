@@ -1,0 +1,752 @@
+<html lang="en"><head><meta charset="utf-8"><style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-counter-scale, 0.25));
+          transform: scale(var(--fa-counter-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(var(--fa-li-width, 2em) * -1);
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  -webkit-animation-name: fa-beat;
+          animation-name: fa-beat;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  -webkit-animation-name: fa-bounce;
+          animation-name: fa-bounce;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  -webkit-animation-name: fa-fade;
+          animation-name: fa-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  -webkit-animation-name: fa-beat-fade;
+          animation-name: fa-beat-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  -webkit-animation-name: fa-flip;
+          animation-name: fa-flip;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  -webkit-animation-name: fa-shake;
+          animation-name: fa-shake;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 2s);
+          animation-duration: var(--fa-animation-duration, 2s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
+          animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    -webkit-animation-delay: -1ms;
+            animation-delay: -1ms;
+    -webkit-animation-duration: 1ms;
+            animation-duration: 1ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    transition-delay: 0s;
+    transition-duration: 0s;
+  }
+}
+@-webkit-keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@-webkit-keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@-webkit-keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@-webkit-keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@-webkit-keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@-webkit-keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  -webkit-transform: rotate(var(--fa-rotate-angle, none));
+          transform: rotate(var(--fa-rotate-angle, none));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse,
+.fa-duotone.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}</style><link rel="icon" href="/favicon.ico"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="manifest" href="/site.webmanifest"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ea923e"><meta name="msapplication-TileColor" content="#14192e"><meta name="theme-color" content="#ea923e"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://cloudflare-ipfs.com/ipfs/QmUospsqvpNvE4GEQg71rauZ7thvwBJUtoDTVZknYZPJAj"><meta name="description" content="AtomicHub is the leading high scale NFT platform for creating, trading and buying / selling NFTs that is already used by millions of loyal users. Its features include an NFT Explorer, a NFT Marketplace, a NFT Trading interface and an NFT Creator."><meta name="keywords" content="NFT, NFT marketplace, tokenization, digital goods, metaverse, blockchain"><title>NFT Explorer - AtomicHub</title><link href="/static/css/main.63b50c6dd05c411e1620.css" rel="stylesheet"><script async="" src="/cdn-cgi/bm/cv/669835187/api.js"></script></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><div class="NavigationSpacer"></div><nav class="DesktopNavigation navbar navbar-expand-lg navbar-dark fixed-top"><div class="container"><div class="row w-100"><div class="d-flex justify-content-between align-items-center w-100 position-relative"><span class="navbar-brand"><a href="/"><img src="/images/logos/atomichub.svg" alt="AtomicHub"></a></span><ul class="hide-sub-nav"><li><a class="nav-link active" data-testid="explorer-link" title="Explorer" href="/explorer">Explorer</a><div class="sub-nav"><div class="sub-nav-inner"><div class="w-50 mr-1"><h6>Categories</h6><div class="sub-items"><a class="sub-nav-link" href="/explorer"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="fort-awesome" class="svg-inline--fa fa-fort-awesome " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M489.2 287.9h-27.4c-2.6 0-4.6 2-4.6 4.6v32h-36.6V146.2c0-2.6-2-4.6-4.6-4.6h-27.4c-2.6 0-4.6 2-4.6 4.6v32h-36.6v-32c0-2.6-2-4.6-4.6-4.6h-27.4c-2.6 0-4.6 2-4.6 4.6v32h-36.6v-32c0-6-8-4.6-11.7-4.6v-38c8.3-2 17.1-3.4 25.7-3.4 10.9 0 20.9 4.3 31.4 4.3 4.6 0 27.7-1.1 27.7-8v-60c0-2.6-2-4.6-4.6-4.6-5.1 0-15.1 4.3-24 4.3-9.7 0-20.9-4.3-32.6-4.3-8 0-16 1.1-23.7 2.9v-4.9c5.4-2.6 9.1-8.3 9.1-14.3 0-20.7-31.4-20.8-31.4 0 0 6 3.7 11.7 9.1 14.3v111.7c-3.7 0-11.7-1.4-11.7 4.6v32h-36.6v-32c0-2.6-2-4.6-4.6-4.6h-27.4c-2.6 0-4.6 2-4.6 4.6v32H128v-32c0-2.6-2-4.6-4.6-4.6H96c-2.6 0-4.6 2-4.6 4.6v178.3H54.8v-32c0-2.6-2-4.6-4.6-4.6H22.8c-2.6 0-4.6 2-4.6 4.6V512h182.9v-96c0-72.6 109.7-72.6 109.7 0v96h182.9V292.5c.1-2.6-1.9-4.6-4.5-4.6zm-288.1-4.5c0 2.6-2 4.6-4.6 4.6h-27.4c-2.6 0-4.6-2-4.6-4.6v-64c0-2.6 2-4.6 4.6-4.6h27.4c2.6 0 4.6 2 4.6 4.6v64zm146.4 0c0 2.6-2 4.6-4.6 4.6h-27.4c-2.6 0-4.6-2-4.6-4.6v-64c0-2.6 2-4.6 4.6-4.6h27.4c2.6 0 4.6 2 4.6 4.6v64z"></path></svg></span> All NFTs</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg></a><a class="sub-nav-link" href="/explorer#collections"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="crown" class="svg-inline--fa fa-crown " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M576 136c0 22.09-17.91 40-40 40c-.248 0-.4551-.1266-.7031-.1305l-50.52 277.9C482 468.9 468.8 480 453.3 480H122.7c-15.46 0-28.72-11.06-31.48-26.27L40.71 175.9C40.46 175.9 40.25 176 39.1 176c-22.09 0-40-17.91-40-40S17.91 96 39.1 96s40 17.91 40 40c0 8.998-3.521 16.89-8.537 23.57l89.63 71.7c15.91 12.73 39.5 7.544 48.61-10.68l57.6-115.2C255.1 98.34 247.1 86.34 247.1 72C247.1 49.91 265.9 32 288 32s39.1 17.91 39.1 40c0 14.34-7.963 26.34-19.3 33.4l57.6 115.2c9.111 18.22 32.71 23.4 48.61 10.68l89.63-71.7C499.5 152.9 496 144.1 496 136C496 113.9 513.9 96 536 96S576 113.9 576 136z"></path></svg></span> Collections</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg></a><a class="sub-nav-link" href="/explorer#assets"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="hotjar" class="svg-inline--fa fa-hotjar " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M414.9 161.5C340.2 29 121.1 0 121.1 0S222.2 110.4 93 197.7C11.3 252.8-21 324.4 14 402.6c26.8 59.9 83.5 84.3 144.6 93.4-29.2-55.1-6.6-122.4-4.1-129.6 57.1 86.4 165 0 110.8-93.9 71 15.4 81.6 138.6 27.1 215.5 80.5-25.3 134.1-88.9 148.8-145.6 15.5-59.3 3.7-127.9-26.3-180.9z"></path></svg></span> NFTs</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg></a><a class="sub-nav-link" href="/explorer#templates"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="copy" class="svg-inline--fa fa-copy " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"></path></svg></span> Templates</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg></a></div></div><div class="w-50 ml-1"><h6>Wonder where to start?</h6><a href="http://go.wax.io/WAX-Academy" target="_blank" rel="noreferrer noopener"><img src="/images/banners/guide-beginner.png"></a></div></div></div></li><li><a class="nav-link " data-testid="market-link" title="Market" href="/market">Market</a><div class="sub-nav"><div class="sub-nav-inner"><div class="w-50 mr-1"><h6>Categories</h6><div class="sub-items"><a class="sub-nav-link" href="/market"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bolt" class="svg-inline--fa fa-bolt " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M240.5 224H352C365.3 224 377.3 232.3 381.1 244.7C386.6 257.2 383.1 271.3 373.1 280.1L117.1 504.1C105.8 513.9 89.27 514.7 77.19 505.9C65.1 497.1 60.7 481.1 66.59 467.4L143.5 288H31.1C18.67 288 6.733 279.7 2.044 267.3C-2.645 254.8 .8944 240.7 10.93 231.9L266.9 7.918C278.2-1.92 294.7-2.669 306.8 6.114C318.9 14.9 323.3 30.87 317.4 44.61L240.5 224z"></path></svg></span> Sales</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg></a><a class="sub-nav-link" href="/market#auctions"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="stopwatch" class="svg-inline--fa fa-stopwatch " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M272 0C289.7 0 304 14.33 304 32C304 49.67 289.7 64 272 64H256V98.45C293.5 104.2 327.7 120 355.7 143L377.4 121.4C389.9 108.9 410.1 108.9 422.6 121.4C435.1 133.9 435.1 154.1 422.6 166.6L398.5 190.8C419.7 223.3 432 262.2 432 304C432 418.9 338.9 512 224 512C109.1 512 16 418.9 16 304C16 200 92.32 113.8 192 98.45V64H176C158.3 64 144 49.67 144 32C144 14.33 158.3 0 176 0L272 0zM248 192C248 178.7 237.3 168 224 168C210.7 168 200 178.7 200 192V320C200 333.3 210.7 344 224 344C237.3 344 248 333.3 248 320V192z"></path></svg></span> Auctions</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg></a><a class="sub-nav-link" href="/market/history"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="clock-rotate-left" class="svg-inline--fa fa-clock-rotate-left " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C201.7 512 151.2 495 109.7 466.1C95.2 455.1 91.64 436 101.8 421.5C111.9 407 131.8 403.5 146.3 413.6C177.4 435.3 215.2 448 256 448C362 448 448 362 448 256C448 149.1 362 64 256 64C202.1 64 155 85.46 120.2 120.2L151 151C166.1 166.1 155.4 192 134.1 192H24C10.75 192 0 181.3 0 168V57.94C0 36.56 25.85 25.85 40.97 40.97L74.98 74.98C121.3 28.69 185.3 0 255.1 0L256 0zM256 128C269.3 128 280 138.7 280 152V246.1L344.1 311C354.3 320.4 354.3 335.6 344.1 344.1C335.6 354.3 320.4 354.3 311 344.1L239 272.1C234.5 268.5 232 262.4 232 256V152C232 138.7 242.7 128 256 128V128z"></path></svg></span> History</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg></a></div></div><div class="w-50 ml-1"><h6>You might be interested in</h6><div class="mb-3"><a class="ShowcaseBanner" href="/drops/89314+89315+89316+89317"><img class="banner-content" src="https://ipfs.atomichub.io/ipfs/QmYwBv4ZEwtqJLVd8qfc2VmQmET67K687aZQnd3NDLxJuB" alt="Banner"><div class="banner-label">Ad</div><div>&nbsp;</div></a></div><div class=""><a class="ShowcaseBanner" href="/market/history"><img class="banner-content" src="/images/banners/placeholders/global_history.png" alt="Banner"><div>&nbsp;</div></a></div></div></div></div></li><li><a class="nav-link " data-testid="trading-link" title="Trading" href="/trading">Trading</a><div class="sub-nav"><div class="sub-nav-inner"><div class="w-50 mr-1"><h6>Categories</h6><div class="sub-items"><a class="sub-nav-link" href="/trading"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="list" class="svg-inline--fa fa-list " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M88 48C101.3 48 112 58.75 112 72V120C112 133.3 101.3 144 88 144H40C26.75 144 16 133.3 16 120V72C16 58.75 26.75 48 40 48H88zM480 64C497.7 64 512 78.33 512 96C512 113.7 497.7 128 480 128H192C174.3 128 160 113.7 160 96C160 78.33 174.3 64 192 64H480zM480 224C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H192C174.3 288 160 273.7 160 256C160 238.3 174.3 224 192 224H480zM480 384C497.7 384 512 398.3 512 416C512 433.7 497.7 448 480 448H192C174.3 448 160 433.7 160 416C160 398.3 174.3 384 192 384H480zM16 232C16 218.7 26.75 208 40 208H88C101.3 208 112 218.7 112 232V280C112 293.3 101.3 304 88 304H40C26.75 304 16 293.3 16 280V232zM88 368C101.3 368 112 378.7 112 392V440C112 453.3 101.3 464 88 464H40C26.75 464 16 453.3 16 440V392C16 378.7 26.75 368 40 368H88z"></path></svg></span> Inventory</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg></a><a class="sub-nav-link" href="/bridge"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="clone" class="svg-inline--fa fa-clone " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M64 464H288C296.8 464 304 456.8 304 448V384H352V448C352 483.3 323.3 512 288 512H64C28.65 512 0 483.3 0 448V224C0 188.7 28.65 160 64 160H128V208H64C55.16 208 48 215.2 48 224V448C48 456.8 55.16 464 64 464zM160 64C160 28.65 188.7 0 224 0H448C483.3 0 512 28.65 512 64V288C512 323.3 483.3 352 448 352H224C188.7 352 160 323.3 160 288V64zM224 304H448C456.8 304 464 296.8 464 288V64C464 55.16 456.8 48 448 48H224C215.2 48 208 55.16 208 64V288C208 296.8 215.2 304 224 304z"></path></svg></span> Atomic Bridge</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg></a><a class="sub-nav-link" href="/trading/history"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="calendar" class="svg-inline--fa fa-calendar " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 448C48 456.8 55.16 464 64 464H384C392.8 464 400 456.8 400 448V192H48V448z"></path></svg></span> Transfer History</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg></a><a class="sub-nav-link" href="/trading/trade-offers#active"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="right-left" class="svg-inline--fa fa-right-left " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 160h319.9l.0791 72c0 9.547 5.652 18.19 14.41 22c8.754 3.812 18.93 2.078 25.93-4.406l112-104c10.24-9.5 10.24-25.69 0-35.19l-112-104c-6.992-6.484-17.17-8.217-25.93-4.408c-8.758 3.816-14.41 12.46-14.41 22L351.9 96H32C14.31 96 0 110.3 0 127.1S14.31 160 32 160zM480 352H160.1L160 279.1c0-9.547-5.652-18.19-14.41-22C136.9 254.2 126.7 255.9 119.7 262.4l-112 104c-10.24 9.5-10.24 25.69 0 35.19l112 104c6.992 6.484 17.17 8.219 25.93 4.406C154.4 506.2 160 497.5 160 488L160.1 416H480c17.69 0 32-14.31 32-32S497.7 352 480 352z"></path></svg></span> Trade Offers </span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg></a><a class="sub-nav-link" href="/trading/buy-offers#active"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="comment-dollar" class="svg-inline--fa fa-comment-dollar " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 31.1c-141.4 0-255.1 93.09-255.1 208c0 49.59 21.37 94.1 56.97 130.7c-12.5 50.39-54.31 95.3-54.81 95.8C0 468.8-.5938 472.2 .6875 475.2C1.1 478.2 4.813 479.1 8 479.1c66.31 0 116-31.8 140.6-51.41c32.72 12.31 69.02 19.41 107.4 19.41c141.4 0 255.1-93.09 255.1-207.1S397.4 31.1 256 31.1zM317.8 282.3c-3.623 20.91-19.47 34.64-41.83 39.43V332c0 11.03-8.946 20-19.99 20S236 343 236 332v-10.77c-8.682-1.922-17.3-4.723-25.06-7.512l-4.266-1.5C196.3 308.5 190.8 297.1 194.5 286.7c3.688-10.41 15.11-15.81 25.52-12.22l4.469 1.625c7.844 2.812 16.72 6 23.66 7.031c13.72 2.125 28.94 .1875 30.31-7.625c.875-5.094 1.359-7.906-27.92-16.28L244.7 257.5c-17.33-5.094-57.92-17-50.52-59.84C197.8 176.8 213.6 162.8 236 157.1V148c0-11.03 8.961-20 20.01-20s19.99 8.969 19.99 20v10.63c5.453 1.195 11.34 2.789 18.56 5.273c10.44 3.625 15.95 15.03 12.33 25.47c-3.625 10.41-15.06 15.94-25.45 12.34c-5.859-2.031-12-4-17.59-4.844C250.2 194.8 234.1 196.7 233.6 204.5C232.8 208.1 232.3 212.2 255.1 219.2l5.547 1.594C283.8 227.1 325.3 239 317.8 282.3z"></path></svg></span> Buy Offers </span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg></a><a class="sub-nav-link" href="/trading/links#active"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="gift" class="svg-inline--fa fa-gift " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M152 0H154.2C186.1 0 215.7 16.91 231.9 44.45L256 85.46L280.1 44.45C296.3 16.91 325.9 0 357.8 0H360C408.6 0 448 39.4 448 88C448 102.4 444.5 115.1 438.4 128H480C497.7 128 512 142.3 512 160V224C512 241.7 497.7 256 480 256H32C14.33 256 0 241.7 0 224V160C0 142.3 14.33 128 32 128H73.6C67.46 115.1 64 102.4 64 88C64 39.4 103.4 0 152 0zM190.5 68.78C182.9 55.91 169.1 48 154.2 48H152C129.9 48 112 65.91 112 88C112 110.1 129.9 128 152 128H225.3L190.5 68.78zM360 48H357.8C342.9 48 329.1 55.91 321.5 68.78L286.7 128H360C382.1 128 400 110.1 400 88C400 65.91 382.1 48 360 48V48zM32 288H224V512H80C53.49 512 32 490.5 32 464V288zM288 512V288H480V464C480 490.5 458.5 512 432 512H288z"></path></svg></span> Gift Links</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg></a></div></div><div class="w-50 ml-1"><h6>Learn how to trade NFTs</h6><a href="https://academy.anyo.io/course/introduction/" target="_blank" rel="noopener noreferrer"><img src="/images/banners/guide-trading.png"></a></div></div></div></li><li><a class="nav-link " data-testid="creator-link" title="NFT Creator" href="/creator">NFT Creator</a></li></ul><div class="SearchBar "><form class="form-inline position-relative w-100"><input placeholder="Search for NFT’s collections and more!" autocomplete="off" autocapitalize="off" autocorrect="off" type="text" class="text-white form-control" value=""><button type="button" class="btn"></button><button type="button" class="close-btn btn"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" class="svg-inline--fa fa-xmark " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg></button><div class="results-block"></div></form></div><div class="d-flex justify-content-center"><div class="ml-2"><div class="ChainChanger d-flex align-items-center justify-content-center pointer" data-testid="chain-changer-dropdown"><img src="/images/chains/wax.png" alt="WAX Mainnet"></div></div><div class="mx-2"><div class="Notifications"><button type="button" class="notification-toggle-button pointer btn btn-primary"><img src="/images/icons/bell.png" alt=""></button></div></div><div class="LoginModal d-flex "><button data-testid="login-button" type="button" class="login-button btn btn-primary">Login</button></div></div></div></div></div></nav><nav class="MobileNavigation  navbar navbar-expand-xl navbar-dark fixed-top"><div class="position-relative d-flex align-items-center w-100"><span class="navbar-brand"><a href="/"><img src="/images/logos/atomichub.svg" class="big-logo" alt="AtomicHub"><img src="/images/logos/atomic.svg" class="small-logo" alt="AtomicHub"></a></span><div class="SearchBar "><form class="form-inline position-relative w-100"><input placeholder="Search…" autocomplete="off" autocapitalize="off" autocorrect="off" type="text" class="text-white form-control" value=""><button type="button" class="btn"></button><button type="button" class="close-btn btn"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" class="svg-inline--fa fa-xmark " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg></button><div class="results-block"></div></form></div><div class="mx-2"><div class="Notifications"><button type="button" class="notification-toggle-button pointer btn btn-primary"><img src="/images/icons/bell.png" alt=""></button></div></div><button type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed"><span></span><span></span><span></span></button></div><div class="navbar-collapse collapse"><button type="button" class="close"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" class="svg-inline--fa fa-xmark " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg></button><div class="nav-wrapper w-100"><div class="howdy-rocket"><div class="rocket"><img src="/images/rocket.png" alt="Rocket" class="rocket"></div><div><div class="greeting">Howdy,</div><div class="font-weight-bold teaser">Let's get started!</div></div></div><div class="LoginModal d-flex "><button data-testid="login-button" type="button" class="login-button btn btn-primary">Login</button></div><h6 class="menu">Menu</h6><div class="nav-items"><ul><li class=""><div class="link-wrapper"><a class="nav-link active" data-testid="explorer-link" href="/explorer"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bolt" class="svg-inline--fa fa-bolt " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M240.5 224H352C365.3 224 377.3 232.3 381.1 244.7C386.6 257.2 383.1 271.3 373.1 280.1L117.1 504.1C105.8 513.9 89.27 514.7 77.19 505.9C65.1 497.1 60.7 481.1 66.59 467.4L143.5 288H31.1C18.67 288 6.733 279.7 2.044 267.3C-2.645 254.8 .8944 240.7 10.93 231.9L266.9 7.918C278.2-1.92 294.7-2.669 306.8 6.114C318.9 14.9 323.3 30.87 317.4 44.61L240.5 224z"></path></svg></span> Explorer</span></a><button><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg></button></div><div class="sub-nav"><a href="/explorer">All NFTs</a><a href="/explorer#collections">Collections</a><a href="/explorer#assets">NFTs</a><a href="/explorer#templates">Templates</a></div></li><li class=""><div class="link-wrapper"><a class="nav-link " data-testid="market-link" href="/market"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z"></path></svg></span> Market</span></a><button><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg></button></div><div class="sub-nav"><a href="/market">Sales</a><a href="/market#auctions">Auctions</a><a href="/market/history">History</a></div></li><li class=""><div class="link-wrapper"><a class="nav-link " data-testid="trading-link" href="/trading"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="right-left" class="svg-inline--fa fa-right-left " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 160h319.9l.0791 72c0 9.547 5.652 18.19 14.41 22c8.754 3.812 18.93 2.078 25.93-4.406l112-104c10.24-9.5 10.24-25.69 0-35.19l-112-104c-6.992-6.484-17.17-8.217-25.93-4.408c-8.758 3.816-14.41 12.46-14.41 22L351.9 96H32C14.31 96 0 110.3 0 127.1S14.31 160 32 160zM480 352H160.1L160 279.1c0-9.547-5.652-18.19-14.41-22C136.9 254.2 126.7 255.9 119.7 262.4l-112 104c-10.24 9.5-10.24 25.69 0 35.19l112 104c6.992 6.484 17.17 8.219 25.93 4.406C154.4 506.2 160 497.5 160 488L160.1 416H480c17.69 0 32-14.31 32-32S497.7 352 480 352z"></path></svg></span> Trading</span></a><button><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg></button></div><div class="sub-nav"><a href="/trading">Inventory</a><a href="/bridge">Atomic Bridge</a><a href="/trading/history">Transfer History</a><a href="/trading/trade-offers#active">Trade Offers </a><a href="/trading/buy-offers#active">Buy Offers </a><a href="/trading/links#active">Gift Links</a></div></li><li><div class="link-wrapper"><a class="nav-link " data-testid="creator-link" href="/creator"><span><span class="icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="brush" class="svg-inline--fa fa-brush " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M224 0H336C362.5 0 384 21.49 384 48V256H0V48C0 21.49 21.49 0 48 0H64L96 64L128 0H160L192 64L224 0zM384 288V320C384 355.3 355.3 384 320 384H256V448C256 483.3 227.3 512 192 512C156.7 512 128 483.3 128 448V384H64C28.65 384 0 355.3 0 320V288H384zM192 464C200.8 464 208 456.8 208 448C208 439.2 200.8 432 192 432C183.2 432 176 439.2 176 448C176 456.8 183.2 464 192 464z"></path></svg></span> NFT Creator</span></a></div></li></ul><h6 class="my-4">You might be interested in</h6><div class="ads my-3"><div class="mb-3"><a class="ShowcaseBanner" href="/drops/89314+89315+89316+89317"><img class="banner-content" src="https://ipfs.atomichub.io/ipfs/QmYwBv4ZEwtqJLVd8qfc2VmQmET67K687aZQnd3NDLxJuB" alt="Banner"><div class="banner-label">Ad</div><div>&nbsp;</div></a></div><div class=""><a class="ShowcaseBanner" href="/market/history"><img class="banner-content" src="/images/banners/placeholders/global_history.png" alt="Banner"><div>&nbsp;</div></a></div></div></div></div><div class="nav-footer"><span class="blockchain">Blockchain</span><div class="ChainChanger d-flex align-items-center justify-content-center pointer" data-testid="chain-changer-dropdown"><img src="/images/chains/wax.png" alt="WAX Mainnet"></div></div></div><div class="blur"></div></nav><div style="min-height: calc(100vh - 200px);"><div class="container Explorer mb-5"><div class="row"><div class="col"><div class="mt-4"><h1>NFT Explorer</h1></div><div class="bigger-medium-text">Search all NFTs created across the AtomicAssets NFT standard.</div></div></div><div class="mt-3"></div><div class="row my-4 HubStatistics"><div class="col"><div class="block-card"><div class="row"><div class="col-lg-3 col-md-6"><div class="d-flex align-items-center h-100"><div class="stats-image"><img src="/images/icons/atom.png" alt="Atom icon"></div><div class="stats-value"><a href="/explorer">166,656,487 NFTs Created</a></div></div></div><div class="col-lg-3 col-md-6"><div class="d-flex align-items-center h-100"><div class="stats-image"><img src="/images/icons/label.png" alt="Atom icon"></div><div class="stats-value"><a href="/market/history">62,813 Sales Today</a></div></div></div><div class="col-lg-3 col-md-6"><div class="d-flex align-items-center h-100"><div class="stats-image"><img src="/images/icons/trade.png" alt="Atom icon"></div><div class="stats-value">446,304 Txs Today</div></div></div><div class="col-lg-3 col-md-6"><div class="d-flex align-items-center h-100"><div class="stats-image"><img src="/images/icons/coins.png" alt="Atom icon"></div><div class="stats-value"><a href="/ranking">1,617,886 WAX Daily Volume</a></div></div></div></div></div></div></div><div class="d-block d-md-flex"><form class="form-inline w-100 form-search mr-2" data-testid="explorer-search-form"><input placeholder="Search…" autocomplete="off" autocapitalize="off" autocorrect="off" type="text" class="w-100 text-white form-control" value=""><button type="button" class="btn btn-primary"></button></form><div class="dropdown-block dropdown-primary flex-wrapper dropdown"><button aria-haspopup="true" aria-expanded="false" data-testid="explorer-page-dropdown-button" type="button" class="dropdown-toggle btn btn-primary">Created (Newest)</button><div x-placement="bottom-start" aria-labelledby="" class="dropdown-menu" style="position: absolute; top: 0px; left: 0px; margin: 0px; opacity: 0; pointer-events: none;"><a data-testid="explorer-page-dropdown-item-volume-desc" href="#" class="dropdown-item" role="button">Popularity</a><a data-testid="explorer-page-dropdown-item-collection_name-asc" href="#" class="dropdown-item" role="button">Alphabetical (A-Z)</a><a data-testid="explorer-page-dropdown-item-collection_name-desc" href="#" class="dropdown-item" role="button">Alphabetical (Z-A)</a><a data-testid="explorer-page-dropdown-item-created-desc" href="#" class="dropdown-item" role="button">Created (Newest)</a><a data-testid="explorer-page-dropdown-item-created-asc" href="#" class="dropdown-item" role="button">Created (Oldest)</a></div></div><div class="CustomCheckbox checkbox-control mx-auto d-flex flex-wrapper mb-2" data-testid="explorer-page-only-whitelisted-checkbox"><input id="checkbox-SNQNIBnj7FVxNabkyrOeS" class="checkbox-input" type="checkbox" checked=""><label for="checkbox-SNQNIBnj7FVxNabkyrOeS" class="checkbox-label font-weight-6">Only Whitelisted</label></div></div><div class="HorizontalMenu mx-3"><div class="slick-slider slick-initialized"><div class="slick-list"><div class="slick-track" style="width: 675px; opacity: 1; transform: translate3d(0px, 0px, 0px);"><div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 135px;"><div><div class="col" tabindex="-1" style="width: 100%; display: inline-block;"><button class="menu-option" data-testid="explorer-page-menu-item-">All</button></div></div></div><div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 135px;"><div><div class="col" tabindex="-1" style="width: 100%; display: inline-block;"><button class="menu-option selected" data-testid="explorer-page-menu-item-collections">Collections</button></div></div></div><div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 135px;"><div><div class="col" tabindex="-1" style="width: 100%; display: inline-block;"><button class="menu-option" data-testid="explorer-page-menu-item-templates">Templates</button></div></div></div><div data-index="3" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 135px;"><div><div class="col" tabindex="-1" style="width: 100%; display: inline-block;"><button class="menu-option" data-testid="explorer-page-menu-item-assets">NFTs</button></div></div></div><div data-index="4" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 135px;"><div><div class="col" tabindex="-1" style="width: 100%; display: inline-block;"><button class="menu-option" data-testid="explorer-page-menu-item-accounts">Accounts</button></div></div></div></div></div></div></div><div class="huge2-text font-weight-6 mb-3 mt-3">Collections</div><div class="row mb-4"><div class="col-12 text-center p-0 MobileCardDesign"><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/bigcollememe"><div class="PreviewImage picture"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/bigcollememe">bigcollememe</a></span></div></div><div class="buttons"><a href="/explorer/collection/bigcollememe"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/teknationok1"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmQ5MeS8z1vqZX6APkg9AQ7ceJoG7xWLGCCzE4zvjFwXUr&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/teknationok1">teknationok1</a></span></div></div><div class="buttons"><a href="/explorer/collection/teknationok1"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/l1atinmukaku"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmUi1871kzqxaQvivBPopw7XboacvndN5aTEigpDHdKQwR&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/l1atinmukaku">l1atinmukaku</a></span></div></div><div class="buttons"><a href="/explorer/collection/l1atinmukaku"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/nftnewsblog2"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmY6ksLiFLkV6SASoj1PXgkxhRTZcbMtTMybC1SgHCuTge&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/nftnewsblog2">nftnewsblog2</a></span></div></div><div class="buttons"><a href="/explorer/collection/nftnewsblog2"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/picturedis23"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmckCbvquMhntNsUxzYfQbFQmKBXBsHdcTyFxPDQfhEB8Q&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/picturedis23">picturedis23</a></span></div></div><div class="buttons"><a href="/explorer/collection/picturedis23"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/skullmonster"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmV6kd5fjcc8VQW1iV3faBftgZA3wWkCbiRLmkHe3PrFtg&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/skullmonster">skullmonster</a></span></div></div><div class="buttons"><a href="/explorer/collection/skullmonster"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/jobandworkpj"><div class="PreviewImage picture"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/jobandworkpj">jobandworkpj</a></span></div></div><div class="buttons"><a href="/explorer/collection/jobandworkpj"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/teameggshead"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmYwbZDN3YUzGZbsx5D9DgKP8otU1B1Pf5ETwtVMg1ZSb2&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/teameggshead">teameggshead</a></span></div></div><div class="buttons"><a href="/explorer/collection/teameggshead"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/waxammountwx"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmZHiXPTQ3knVEXnpF7imbwqpueQDk8ytkAc2x4PktWYL6&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/waxammountwx">waxammountwx</a></span></div></div><div class="buttons"><a href="/explorer/collection/waxammountwx"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/s1mplefnance"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmP6Spt3CcEPE7vQRj2EiLnAdPfA8gAkNdt1WgEMCVgJLk&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/s1mplefnance">s1mplefnance</a></span></div></div><div class="buttons"><a href="/explorer/collection/s1mplefnance"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/spaceunivres"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmYes81tN7JLtLXPZiAM3qb1HZALNza6kLo3nbmYQgEm6L&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/spaceunivres">spaceunivres</a></span></div></div><div class="buttons"><a href="/explorer/collection/spaceunivres"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/1unde2water3"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmUYTiJC9yQ5u92WPC8vv2YMfSTMZMfdUYVG7855WeTeu5&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/1unde2water3">1unde2water3</a></span></div></div><div class="buttons"><a href="/explorer/collection/1unde2water3"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/beefarmsgame"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmR6QptTyBBhvV7emDwnLfbqWtk6onMFk6hgVbH1xdPRrm&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/beefarmsgame">beefarmsgame</a></span></div></div><div class="buttons"><a href="/explorer/collection/beefarmsgame"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/ultimatehero"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmXViXyBGnjbqUsYH7DL4kBbQDn7YytXPwjRz8SLDii832&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/ultimatehero">ultimatehero</a></span></div></div><div class="buttons"><a href="/explorer/collection/ultimatehero"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/421nftpunsss"><div class="PreviewImage picture"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/421nftpunsss">421nftpunsss</a></span></div></div><div class="buttons"><a href="/explorer/collection/421nftpunsss"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/openstudiocs"><div class="PreviewImage picture"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/openstudiocs">openstudiocs</a></span></div></div><div class="buttons"><a href="/explorer/collection/openstudiocs"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/unionstreetz"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmVXKDzXZbTs51jegtaMBZdqXapFskuwhpEUf95cMCNt6k&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/unionstreetz">unionstreetz</a></span></div></div><div class="buttons"><a href="/explorer/collection/unionstreetz"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/unionstreett"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmVEQxVtHCZh3xZMcHuVt8tD21kHS9GquhnJLQ9Xp5CdEw&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/unionstreett">unionstreett</a></span></div></div><div class="buttons"><a href="/explorer/collection/unionstreett"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/tazelcakenft"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmVcstoUUgNr4xfLKBj3rELmTvQC42nnuBrj2fqZcW2LY3&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/tazelcakenft">tazelcakenft</a></span></div></div><div class="buttons"><a href="/explorer/collection/tazelcakenft"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div><div class="CollectionCard large-card"><div class="picture-wrapper single-picture"><a class="picture-position" href="/explorer/collection/royal1zweedz"><div class="PreviewImage picture"><img class="" src="https://resizer.atomichub.io/images/v1/preview?ipfs=QmVjf6yVHnsquGWwcrSJzUyepgbfzsJfLTGBRmFLpLfGfA&amp;size=370" loading="lazy"></div></a></div><div class="content-wrapper"><div class="content"><div class="asset-name text-center"><span><a class="text-white" href="/explorer/collection/royal1zweedz">royal1zweedz</a></span></div></div><div class="buttons"><a href="/explorer/collection/royal1zweedz"><button type="button" class="btn btn-primary">View Collection</button></a></div></div></div></div></div><div class="mt-4"><div class="ApiPagination"><div class="pagination-main"><button type="button" class="pagination-button disabled">Prev</button><div class="pagination-info">1</div><button type="button" class="pagination-button">Next</button></div></div></div></div></div><footer class="Footer"><div class="container"><div class="row footer-main"><div class="col-lg-6 col-md-12 footer-about text-center text-lg-left"><img src="/images/logos/atomichub.svg" alt="AtomicAssets" class="logo"><p>AtomicHub is a one stop solution for creating, trading, buying and selling NFTs that is already used by millions of loyal users.</p><p class="pt-3">You're on AtomicHub's <strong class="version">version 1.121.0</strong></p><div class="socials"><a href="https://twitter.com/atomichub" target="_blank" rel="noreferrer noopener" class="twitter-icon"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.4 151.7c.325 4.548 .325 9.097 .325 13.65 0 138.7-105.6 298.6-298.6 298.6-59.45 0-114.7-17.22-161.1-47.11 8.447 .974 16.57 1.299 25.34 1.299 49.06 0 94.21-16.57 130.3-44.83-46.13-.975-84.79-31.19-98.11-72.77 6.498 .974 12.99 1.624 19.82 1.624 9.421 0 18.84-1.3 27.61-3.573-48.08-9.747-84.14-51.98-84.14-102.1v-1.299c13.97 7.797 30.21 12.67 47.43 13.32-28.26-18.84-46.78-51.01-46.78-87.39 0-19.49 5.197-37.36 14.29-52.95 51.65 63.67 129.3 105.3 216.4 109.8-1.624-7.797-2.599-15.92-2.599-24.04 0-57.83 46.78-104.9 104.9-104.9 30.21 0 57.5 12.67 76.67 33.14 23.72-4.548 46.46-13.32 66.6-25.34-7.798 24.37-24.37 44.83-46.13 57.83 21.12-2.273 41.58-8.122 60.43-16.24-14.29 20.79-32.16 39.31-52.63 54.25z"></path></svg></a><a href="https://discord.com/invite/atomichub" target="_blank" rel="noreferrer noopener" class="discord-icon"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="discord" class="svg-inline--fa fa-discord " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M524.5 69.84a1.5 1.5 0 0 0 -.764-.7A485.1 485.1 0 0 0 404.1 32.03a1.816 1.816 0 0 0 -1.923 .91 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 -15.14-30.6 1.89 1.89 0 0 0 -1.924-.91A483.7 483.7 0 0 0 116.1 69.14a1.712 1.712 0 0 0 -.788 .676C39.07 183.7 18.19 294.7 28.43 404.4a2.016 2.016 0 0 0 .765 1.375A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 2.063-.676A348.2 348.2 0 0 0 208.1 430.4a1.86 1.86 0 0 0 -1.019-2.588 321.2 321.2 0 0 1 -45.87-21.85 1.885 1.885 0 0 1 -.185-3.126c3.082-2.309 6.166-4.711 9.109-7.137a1.819 1.819 0 0 1 1.9-.256c96.23 43.92 200.4 43.92 295.5 0a1.812 1.812 0 0 1 1.924 .233c2.944 2.426 6.027 4.851 9.132 7.16a1.884 1.884 0 0 1 -.162 3.126 301.4 301.4 0 0 1 -45.89 21.83 1.875 1.875 0 0 0 -1 2.611 391.1 391.1 0 0 0 30.01 48.81 1.864 1.864 0 0 0 2.063 .7A486 486 0 0 0 610.7 405.7a1.882 1.882 0 0 0 .765-1.352C623.7 277.6 590.9 167.5 524.5 69.84zM222.5 337.6c-28.97 0-52.84-26.59-52.84-59.24S193.1 219.1 222.5 219.1c29.67 0 53.31 26.82 52.84 59.24C275.3 310.1 251.9 337.6 222.5 337.6zm195.4 0c-28.97 0-52.84-26.59-52.84-59.24S388.4 219.1 417.9 219.1c29.67 0 53.31 26.82 52.84 59.24C470.7 310.1 447.5 337.6 417.9 337.6z"></path></svg></a><a href="https://t.me/atomicassets" target="_blank" rel="noreferrer noopener" class="telegram-icon"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram" class="svg-inline--fa fa-telegram " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248 8C111 8 0 119 0 256S111 504 248 504 496 392.1 496 256 384.1 8 248 8zM362.1 176.7c-3.732 39.22-19.88 134.4-28.1 178.3-3.476 18.58-10.32 24.82-16.95 25.42-14.4 1.326-25.34-9.517-39.29-18.66-21.83-14.31-34.16-23.22-55.35-37.18-24.49-16.14-8.612-25 5.342-39.5 3.652-3.793 67.11-61.51 68.33-66.75 .153-.655 .3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283 .746-104.6 69.14-14.85 10.19-26.89 9.934c-8.855-.191-25.89-5.006-38.55-9.123-15.53-5.048-27.88-7.717-26.8-16.29q.84-6.7 18.45-13.7 108.4-47.25 144.6-62.3c68.87-28.65 83.18-33.62 92.51-33.79 2.052-.034 6.639 .474 9.61 2.885a10.45 10.45 0 0 1 3.53 6.716A43.76 43.76 0 0 1 362.1 176.7z"></path></svg></a><a href="https://pinkgg.medium.com/" target="_blank" rel="noreferrer noopener" class="medium-icon"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="medium" class="svg-inline--fa fa-medium " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M180.5 74.26C80.81 74.26 0 155.6 0 256S80.82 437.7 180.5 437.7 361 356.4 361 256 280.2 74.26 180.5 74.26zm288.3 10.65c-49.85 0-90.25 76.62-90.25 171.1s40.41 171.1 90.25 171.1 90.25-76.62 90.25-171.1H559C559 161.5 518.6 84.91 468.8 84.91zm139.5 17.82c-17.53 0-31.74 68.63-31.74 153.3s14.2 153.3 31.74 153.3S640 340.6 640 256C640 171.4 625.8 102.7 608.3 102.7z"></path></svg></a><a href="https://www.youtube.com/channel/UCAEv4HpnBJCcql5iWo7p2tQ" target="_blank" rel="noreferrer noopener" class="youtube-icon"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" class="svg-inline--fa fa-youtube " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.7 124.1c-6.281-23.65-24.79-42.28-48.28-48.6C458.8 64 288 64 288 64S117.2 64 74.63 75.49c-23.5 6.322-42 24.95-48.28 48.6-11.41 42.87-11.41 132.3-11.41 132.3s0 89.44 11.41 132.3c6.281 23.65 24.79 41.5 48.28 47.82C117.2 448 288 448 288 448s170.8 0 213.4-11.49c23.5-6.321 42-24.17 48.28-47.82 11.41-42.87 11.41-132.3 11.41-132.3s0-89.44-11.41-132.3zm-317.5 213.5V175.2l142.7 81.21-142.7 81.2z"></path></svg></a><a href="https://github.com/pinknetworkx" target="_blank" rel="noreferrer noopener" class="github-icon"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a></div></div><div class="col-lg-6 col-md-12 footer-links"><div class="row text-center text-lg-left mt-3"><div class="col-6 col-lg-4 mb-3"><h6>Discover</h6><ul><li><a href="/explorer">Explore</a></li><li><a href="/market">Buy &amp; Sell</a></li><li><a href="/trading">Trade</a></li><li><a href="/ranking">View Stats</a></li><li><a href="/creator">Create NFTs</a></li></ul></div><div class="col-6 col-lg-4"><h6>Developers</h6><ul><li><a href="https://atomicassets.io">NFT Standard</a></li><li><a href="https://support.pink.gg/hc/en-us/articles/4405478859922-Resources" target="_blank" rel="noreferrer noopener">Documentation</a></li><li><a href="https://t.me/atomicdevs">Dev Group</a></li><li><a href="https://wax.api.atomicassets.io/docs" rel="noreferrer">API</a></li></ul></div><div class="col-6 col-lg-4"><h6>Contact</h6><ul><li><a href="https://support.pink.gg/hc/en-us" target="_blank" rel="noreferrer noopener">FAQ</a></li><li><a href="https://feedback.atomichub.io" target="_blank" rel="noreferrer noopener">Feedback</a></li><li><a href="https://support.pink.gg/hc/en-us/requests/new" target="_blank" rel="noreferrer noopener">Support</a></li><li><a href="https://apply.workable.com/pinkgg/" target="_blank" rel="noreferrer noopener">Careers</a><span class="ml-2 hiring-badge badge">Hiring!</span></li><li><a href="/press">Press</a></li></ul></div></div></div></div><div class="row footer-legal flex-lg-row flex-column-reverse"><div class="col-lg-4 col-md-12 copyright-notice py-2 text-center text-lg-left">© 2020 - 2022 <a href="https://pink.gg">pink.gg Solutions GmbH</a></div><div class="col-lg-4 col-md-12 legal-links py-2 text-center text-lg-right"><a href="/imprint">Imprint</a><a href="/privacy">Privacy Policy</a><a href="/terms">Terms of Service</a></div><div class="col-lg-4 col-md-12"><div class="row flex-lg-row flex-column-reverse justify-content-lg-end justify-content-center text-lg-right text-center align-items-center"><span class="py-2"><strong>166,656,487 NFTs</strong> created&nbsp;</span><img src="/images/rocket.png" alt="Rocket" class="rocket"></div></div></div></div></footer><div class="CookieNotice"><div class="cookie-notice-body"><div class="cookie-content-wrapper"><div class="collapse show"><h3 class="text-center mt-2 mb-2">🍪 Cookie Notice</h3><p class="text-justify">We use cookies and similar technologies to make our site work and help us improve it, analyze our traffic, deliver personalized content, and enhance your user experience.</p><p class="text-justify">We may also allow third parties to collect information about you through cookies and similar technologies for the same purposes. By clicking ‘Accept all’ you agree to our use of cookies as described in our <a href="/privacy">Privacy Policy</a>. You can manage or disable these cookies at any time by clicking ‘Customize Settings.’ For more information about the cookies we use, please refer to our <a href="/privacy">Privacy Policy</a>.</p></div><div class="collapse"><button type="button" class="text-white btn btn-link"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angles-left" class="svg-inline--fa fa-angles-left " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M77.25 256l137.4-137.4c12.5-12.5 12.5-32.75 0-45.25s-32.75-12.5-45.25 0l-160 160c-12.5 12.5-12.5 32.75 0 45.25l160 160C175.6 444.9 183.8 448 192 448s16.38-3.125 22.62-9.375c12.5-12.5 12.5-32.75 0-45.25L77.25 256zM269.3 256l137.4-137.4c12.5-12.5 12.5-32.75 0-45.25s-32.75-12.5-45.25 0l-160 160c-12.5 12.5-12.5 32.75 0 45.25l160 160C367.6 444.9 375.8 448 384 448s16.38-3.125 22.62-9.375c12.5-12.5 12.5-32.75 0-45.25L269.3 256z"></path></svg> Back</button><table class="w-100"><tbody><tr><td colspan="2"><h6>Necessary</h6></td></tr><tr><td><div class="checkbox-control" style="opacity: 0.5;"><input type="checkbox" class="checkbox-input" checked=""></div></td><td><div class="mb-2">These cookies are necessary for the proper functioning of our website and can't be switched off. Without these cookies, our website would not work properly and you would not be able to use it.</div></td></tr><tr><td colspan="2"><h6>Functional</h6></td></tr><tr><td><div class="checkbox-control"><input type="checkbox" class="checkbox-input" checked=""></div></td><td><div class="mb-2">We use these cookies to enhance functionality and allow for personalisation on our website.</div></td></tr><tr><td colspan="2"><h6>Tracking</h6></td></tr><tr><td><div class="checkbox-control"><input type="checkbox" class="checkbox-input" checked=""></div></td><td><div class="mb-2">These cookies collect information about how you use and interact with our website. We use these cookies in a number of ways, including to optimize our website and make it more user-friendly, to improve our products and services, and to provide our user authentication and fraud and abuse detection and prevention services to our customers.</div></td></tr></tbody></table></div><div class="text-left"><button type="button" class="btn btn-primary">Accept All</button><button type="button" class="text-white font-weight-normal btn btn-link">Customize Settings</button></div></div></div></div></div><script defer="defer" src="/static/js/runtime.f9ffd7ef344e0dc8d5cf.bundle.js"></script><script defer="defer" src="/static/js/vendors.97b40b6cdceeccffb8e8.bundle.js"></script><script defer="defer" src="/static/js/main.17064c488540e7a4577f.bundle.js"></script><script type="text/javascript">(function(){window['__CF$cv$params']={r:'6ef04bd06dd22301',m:'WTuQUkZov2B33NETUVW3KThPw_3ITU1_.q_IG9qdEP0-1647798689-0-AfOF8qHOiZ6bjecCDUiBB27ESc9G66FC+OnJuRbrIP+a9SUCu93uEZDNi8MP2RNbQeGoJ5Um0LWsTwhWgrCspv9w7CSZQJwfFu6Y8NEB1nBLP6t2m1E0Fek/W66fYaUFHg==',s:[0xf4b3356144,0x48b7e93cc6],}})();</script></body></html>
