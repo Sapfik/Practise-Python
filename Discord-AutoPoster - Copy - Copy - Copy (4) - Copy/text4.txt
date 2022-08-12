@@ -1,0 +1,41 @@
+Hi!
+Let`s talk about crypto
+I want to tell you facts about crypto
+Big share
+The total number of bitcoins in the wallets of the top 100 richest addresses is approximately 15% of all issued bitcoins for 2021, which is equivalent to $175.4 billion.
+
+Peak rate of a digital asset
+Bitcoin has always been the most expensive cryptocurrency in terms of price and capitalization in the coin market. In 2021, the situation has not changed. In November, the coin updated its historical maximum value — $69,045.
+
+What can't be returned
+According to various estimates, approximately 4 million bitcoins are permanently lost. As of November 2021, the amount of damage is $276 billion. Lost coins are those left on wallets, from which addresses and cryptocurrency keys are forgotten. Part of the lost coins was also stored on failed physical digital devices (hard drive, flash drive).
+
+Network value
+Market capitalization is the total price of a cryptocurrency system. Calculated based on the number of issued coins multiplied by the current rate. As of November 5, 2021, the market capitalization of Bitcoin is $1.17 trillion.
+
+Daily trading volume
+Users of the BTC cryptocurrency spend more than $10 billion worth of payment transactions and transfers in the Bitcoin system every day. The data is taken as of November 5, 2021.
+
+Direct connection of nodes
+Bitcoin uses blockchain technology - there are no servers and administrators in the system. All information is processed by nodes that are directly connected to each other.
+
+Chain length and how many years to crack it
+As of November 5, 2021, 708,282 blocks have been created in the Bitcoin blockchain. It would take an average graphics card about 38 nonillion years to crack access to each of the addresses, according to Bitcoin Core developer Luke Dash Junior, because the system uses a strong cryptographic hashing algorithm SHA-256.
+
+Who got half of the BTC
+Only 9 thousand bitcoin addresses own about 50% of the coins. As of November 5, 2021, the total number of wallets is over 0.9 billion.
+
+How much could you earn
+Since the creation of Bitcoin by 2021, it has risen in price by more than 86 million times. Having invested only $1 in cryptocurrency 12 years ago, the investor would have received about $86 million.
+
+Emission
+The total possible number of bitcoins is limited to 21 million coins. In November 2021, the number of BTC in circulation is more than 18.86 million. The supply of bitcoins is gradually decreasing. The last coin will be mined around 2140.
+
+Who issues bitcoins
+The release of Bitcoin is facilitated by miners - nodes of the cryptocurrency network that confirm transactions and create blocks in the blockchain. They are rewarded for their work in the form of new coins - BTC. This happens automatically every 10 minutes.
+
+halving
+Bitcoin issuance is halved once every 43-48 months. This process is called halving. In the blockchain, it occurs automatically to reduce the emission of coins to 0.
+
+Closure of a drug dealership
+In 2013, the US FBI arrested the anonymous platform Silk Road, which sold drugs, weapons, documents and other illegal items. Then the federal authorities of the country took control of the cryptocurrency wallets of the site with more than 144 thousand BTC.
