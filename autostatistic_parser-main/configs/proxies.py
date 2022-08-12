@@ -1,0 +1,20 @@
+AUTO_RU_SCRAPPER_PROXIES = [
+    'BDh2ry:zeTkirAwnR@45.89.19.52:15484',
+    'BDh2ry:zeTkirAwnR@45.89.19.102:18290',
+    'BDh2ry:zeTkirAwnR@45.89.19.28:11636'
+]
+
+AUTO_RU_OFFER_SCRAPE_DATA_PROXIES = [
+    'BDh2ry:zeTkirAwnR@45.89.18.236:8198',
+]
+
+AUTO_RU_CHECK_STATUS_PROXIES = [
+    'BDh2ry:zeTkirAwnR@45.89.18.242:6974',
+    'BDh2ry:zeTkirAwnR@45.89.19.28:18786',
+    'BDh2ry:zeTkirAwnR@45.89.19.67:12688',
+]
+
+AUTO_RU_CHECK_SOLD_PROXIES = [
+    'BDh2ry:zeTkirAwnR@45.89.19.7:14218',
+    'BDh2ry:zeTkirAwnR@45.89.19.56:5022',
+]
